@@ -7,4 +7,4 @@ migrate:
 	python back/manage.py migrate
 
 run:
-	yarn --cwd front start & python back/manage.py runserver 0.0.0.0:5000
+	yarn --cwd front start & python back/manage.py runserver
